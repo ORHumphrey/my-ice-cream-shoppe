@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+/* third choice font */
+
+   * { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+
+.container {
+    width: 960px;
+    margin: auto;
+        }
+
+.main-nav {
+  width: 100%;
+ 
+  }
+ 
+.main-nav ul {
+      list-style-type: none;
+      margin: 0;
+      
+        }
+      
+.main-nav li {
+          float: left;
+          list-style-type: none;
+          width: 33.3%;
+          text-align: center;
+          background-color: purple;
+          height: 50px;
+          font-size: 14px;
+          padding-top: 12px;
+          margin: auto;
+          
+}
+
+/*kept at 14px - other sizes didn't look as good */
+
+a  {
+    color: pink;
+    
+}
+          
+.main-banner {
+    
+    min-width: 960px;
+    height: 100px;
+    float: left;
+    background: orange;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    border: 6px pink solid;
+    margin: auto;
+    font-family:'Arima Madurai', cursive;
+    
+}
+
+.main-content {
+    width: 720px;
+    float: left;
+    height: 500px;
+    
+}
+    
+
+.sidebar {
+    max-width: 240px;
+    float: left;
+    background: lavender;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 18px;
+    padding: 18px;
+    color: purple;
+    height: 500px;
+    border: solid 1px navy;
+    margin: auto;
+   
+}
+
+#span a {  /*only using this on home page */
+    color: blue;
+}
+
+.img-50 {
+    width: 720px;
+    height: 500px;
+    
+}
+
+/* pages other than home page have a link to home page in footer */
+
+.footer {
+    max-width: 960px;
+    background: purple;
+    height: 100px;
+    clear: both;
+    text-align: center;
+    font-size: 18px;
+    color: pink;
+    padding-top: 30px;
+   
+    
+   
+   }
